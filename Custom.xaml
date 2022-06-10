@@ -1,0 +1,87 @@
+﻿
+
+<local:MyCard Title="breeze 免费版 V1.0!" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+      <TextBlock TextWrapping="Wrap"
+                 Text="WELLCOME TO breeze V1.0" />
+       <local:MyButton Margin="0,8,0,10" Width="250" Height="35"
+                 Text="启动breeze" EventType="启动游戏" EventData="breeze免费版" />
+       <local:MyButton Margin="0,8,0,0" Width="250" Height="35"
+                 Text="XIN" EventType="启动游戏" EventData="breeze免费版|2b2t.xin" ToolTip="服务器 IP：2b2t.xin" />
+      <local:MyButton Margin="0,8,0,5" Width="250" Height="35"
+                 Text="小宋服" EventType="启动游戏" EventData="breeze免费版|2b2tpvp.cn" ToolTip="服务器 IP：2b2tpvp.cn" />
+      <TextBlock TextWrapping="Wrap"
+                 Text="" />     
+      <TextBlock TextWrapping="Wrap" Text="作者qq:2643661418    加qq群794202148获得更新" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="注意！！" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+	<local:MyButton Margin="0,8,0,10" Width="300" Height="35"
+                   Text="breeze客户端信息" EventType="弹出窗口" EventData="breeze V1.0-02更新|作者:whz\n2022/6/9" />
+        <local:MyHint Text="可以直接模改，但卖钱请咨询作者意见qwq" />
+	<TextBlock TextWrapping="Wrap" Text="作者qq:2643661418    加qq群794202148获得更新" />
+   </StackPanel>
+</local:MyCard>
+<local:MyCard Title="快捷键" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+                   Text="快捷键：  " />
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="+++++++++++++++++++++++ " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="Main(核心功能): " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="Z EPS水晶| " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="左ctrl 填坑| " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="C 常规炸头| " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="G 围jio| " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="R 斜角炸头(视频教程在外面)+物品整理| " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="F 无跳burrow| " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="Alt 潜行+补甲| " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="V trap| "/> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="T 洗脸(会切副手)| " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="++++++++++++++++++++++++ " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="WheelChair(轮椅功能): " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="右CTRL 自动挖脚加挖bur| " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="Y 自动burrow| " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="Q blink| " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="++++++++++++++++++++++++ " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="Other(其他功能): " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="X scaffold| " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="~ Step(上两格)| " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="回车 聊天	栏| " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="U 假人| " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="= 鞘翅平飞| " /> 
+					 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
+					 Text="++++++++++++++++++++++++ " />   
+        <local:MyHint Margin="0,8,0,2" IsWarn="False"
+                   Text="各外挂GUI界面快捷键stay 0.9=\ | Rusher=↑ | EPS 2.5=右shift | pyro=y" />      
+ <Image Height="50" HorizontalAlignment="Center" Source="" />
+    </StackPanel>
+</local:MyCard>
+
+
+
+
+
